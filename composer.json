@@ -1,0 +1,37 @@
+{
+    "name": "jnjxp/routing",
+    "description": "Routing middleware for Aura\\Router",
+    "type": "library",
+    "require": {
+        "aura/router": "^3.1",
+        "container-interop/service-provider": "^0.4.0",
+        "fig/http-message-util": "^1.1",
+        "psr/container": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "zendframework/zend-diactoros": "^2.1",
+        "pds/skeleton": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\Routing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jnjxp\\Routing\\":"tests/"
+        }
+    }
+}
